@@ -1,0 +1,35 @@
+#project-section {
+    background-image:url("../img/Project-section-background.jpg");
+    background-attachment: fixed;
+    h2 {
+      color: rgb(241, 239, 236);
+    }
+  }
+
+#grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+    img {
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px  rgb(44, 43, 43);
+      }
+}
+
+.project {
+    @include btn-project-section;
+    border-radius: 10px;
+    a {
+        text-decoration: none;
+        color: rgb(218, 215, 207);
+    }
+    img {
+        height: 305px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px  rgb(44, 43, 43);
+    }
+  }
+

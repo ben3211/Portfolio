@@ -1,0 +1,23 @@
+.input-container {
+    display: flex;
+}
+
+.contact-form {
+    float: left;
+    width: 640px;
+    margin-left: 20px;
+}
+
+.contact-info {
+    float: right;
+    margin-bottom: 82px;
+    width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    p:last-of-type {
+        text-decoration: underline dotted;
+    }
+}
+

@@ -1,0 +1,23 @@
+.form {
+    margin-top: 100px; 
+    &-input{
+        border: 2px solid #666363;
+        height: 45px;
+        width: 100%;
+        display: block;
+        margin: 0 0 10px 5px;
+        padding: 0 30px;
+        &:focus {
+            border-color: #ff7000;
+        }
+    }
+    &-textarea {
+        @extend .form-input;
+            height: 150px;
+            width: 93.5%;
+            padding: 15px 0 15px 30px;
+            margin-left: 40px;
+            font-family: 'Poppins', sans-serif;;
+    }
+}
+

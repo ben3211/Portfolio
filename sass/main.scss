@@ -1,0 +1,26 @@
+// Base
+@import "base/base";
+@import "base/form";
+
+//Utils
+@import "utils/mixins";
+@import "utils/variables";
+
+//composants
+@import "composants/btn-menu";
+@import "composants/btn-project-section";
+@import "composants/btn-submit";
+@import "composants/icon";
+
+//layout 
+@import "layout/header";
+@import "layout/section";
+@import "layout/home-section";
+@import "layout/project-section";
+@import "layout/about-section";
+@import "layout/contact-section";
+@import "layout/footer";
+@import "layout/contact";
+
+
+

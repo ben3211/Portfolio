@@ -1,0 +1,14 @@
+#home-section {
+    color: rgb(255, 255, 255);
+    background: rgb(13,13,17);
+    background: linear-gradient(135deg, rgba(13,13,17,1) 16%, rgba(14,14,18,1) 34%, rgba(14,14,18,1) 59%, rgba(0,0,0,0.8771709367340687) 79%); 
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    p:last-child {
+        font-size: 2rem;
+    }
+}
+

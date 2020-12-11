@@ -1,0 +1,34 @@
+//header 
+header {
+    position: fixed;
+    background-color: rgb(98, 99, 104);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    opacity: 0.5;
+    height: 75px;
+}
+
+.header-logo {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+//menu
+nav {
+    ul {
+        display: flex;
+        margin-bottom: 20px;
+        li {
+            @include btn-menu;
+            margin-right: 25px;
+            &:hover,&.is-active {
+                color: #ff7000
+            }
+        }
+    }
+}
